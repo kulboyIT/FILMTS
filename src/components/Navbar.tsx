@@ -7,7 +7,7 @@ const Navbar = () => {
       <ul className='flex items-center font-semibold text-base lg:text-lg'>
         <li>
           <NavLink
-            title='Tìm phim miễn phí tại VPhim'
+            title='Tìm phim miễn phí tại KulFlix'
             to={{
               pathname: PATH.search,
               search: createSearchParams({
@@ -29,7 +29,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            title='Xem phim hot nhất tại VPhim'
+            title='Xem phim hot nhất tại KulFlix'
             to={PATH.hot}
             className={({ isActive }) =>
               `hover:text-blue-600 hover:bg-blue-600/20 px-2 py-4 ${isActive && ' text-blue-600'}`
@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            title='Xem phim mới nhất tại VPhim'
+            title='Xem phim mới nhất tại KulFlix'
             to={{
               pathname: `${PATH.list}/${PATH.new}`,
               search: createSearchParams({
@@ -60,7 +60,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            title='Xem phim bộ hay nhất tại VPhim'
+            title='Xem phim bộ hay nhất tại KulFlix'
             to={{
               pathname: `${PATH.list}/${PATH.series}`,
               search: createSearchParams({
@@ -80,7 +80,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            title='Xem phim lẻ hay nhất tại VPhim'
+            title='Xem phim lẻ hay nhất tại KulFlix'
             to={{
               pathname: `${PATH.list}/${PATH.odd}`,
               search: createSearchParams({
@@ -100,7 +100,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            title='Xem tv shows hay nhất tại VPhim'
+            title='Xem tv shows hay nhất tại KulFlix'
             to={{
               pathname: `${PATH.list}/${PATH.tvShows}`,
               search: createSearchParams({
@@ -120,7 +120,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            title='Xem phim hoạt hình hay nhất tại VPhim'
+            title='Xem phim hoạt hình hay nhất tại KulFlix'
             to={{
               pathname: `${PATH.list}/${PATH.anime}`,
               search: createSearchParams({
