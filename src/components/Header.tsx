@@ -46,7 +46,7 @@ const Header = () => {
             }
           >
             <h1 title='Web xem phim miễn phí lớn nhất Việt Nam' className='font-bold text-4xl text-rose-600'>
-              VPhim
+              KulFlix
             </h1>
           </Link>
           <div className='hidden md:block'>
@@ -56,7 +56,7 @@ const Header = () => {
         {/* hamburger button */}
         <div className='flex md:hidden items-center gap-1'>
           <NavLink
-            title='Tìm phim miễn phí tại VPhim'
+            title='Tìm phim miễn phí tại KulFlix'
             to={{
               pathname: PATH.search,
               search: createSearchParams({
@@ -76,7 +76,7 @@ const Header = () => {
             Tìm Kiếm
           </NavLink>
           <button
-            title='Menu phim VPhim'
+            title='Menu phim KulFlix'
             onClick={() => setOpenNav((prev) => !prev)}
             className='flex flex-col gap-[5px] p-2'
           >
@@ -109,7 +109,7 @@ const Header = () => {
           <ul className='flex flex-col text-2xl'>
             <li>
               <NavLink
-                title='Xem phim hot nhất tại VPhim'
+                title='Xem phim hot nhất tại KulFlix'
                 to={PATH.hot}
                 className={({ isActive }) =>
                   `hover:text-blue-600 hover:bg-blue-600/20 block text-center p-4 ${isActive && ' text-blue-600'}`
@@ -120,7 +120,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                title='Xem phim mới nhất tại VPhim'
+                title='Xem phim mới nhất tại KulFlix'
                 to={{
                   pathname: `${PATH.list}/${PATH.new}`,
                   search: createSearchParams({
@@ -140,7 +140,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                title='Xem phim bộ hay nhất tại VPhim'
+                title='Xem phim bộ hay nhất tại KulFlix'
                 to={{
                   pathname: `${PATH.list}/${PATH.series}`,
                   search: createSearchParams({
@@ -160,7 +160,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                title='Xem phim lẻ hay nhất tại VPhim'
+                title='Xem phim lẻ hay nhất tại KulFlix'
                 to={{
                   pathname: `${PATH.list}/${PATH.odd}`,
                   search: createSearchParams({
@@ -180,7 +180,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                title='Xem tv shows hay nhất tại VPhim'
+                title='Xem tv shows hay nhất tại KulFlix'
                 to={{
                   pathname: `${PATH.list}/${PATH.tvShows}`,
                   search: createSearchParams({
@@ -200,7 +200,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                title='Xem phim hoạt hình hay nhất tại VPhim'
+                title='Xem phim hoạt hình hay nhất tại KulFlix'
                 to={{
                   pathname: `${PATH.list}/${PATH.anime}`,
                   search: createSearchParams({
