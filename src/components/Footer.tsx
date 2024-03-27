@@ -4,7 +4,7 @@ const Footer = () => {
       <div className='container space-y-8 overflow-hidden pt-12 pb-32'>
         <div className='flex justify-center mt-8 space-x-4'>
           <a
-            href='https://www.facebook.com/huan.hung.311'
+            href='https://t.me/quankul123'
             rel='noopener noreferrer'
             target='_blank'
             className='text-gray-300 hover:text-gray-100'
@@ -25,7 +25,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href='https://github.com/NguyenHungHuan/film_ts'
+            href='https://github.com/kulboyIT/FILMTS'
             rel='noopener noreferrer'
             target='_blank'
             className='text-gray-300 hover:text-gray-100'
@@ -69,7 +69,7 @@ const Footer = () => {
           </a>
         </div>
         <p className='mt-8 text-2xl leading-6 text-center text-gray-500 dark:text-gray-300'>
-          © 2023 VPhim™. Nguyen Hung Huan.
+          © 2023 KulFlix™. KUL ERO.
         </p>
       </div>
     </footer>
