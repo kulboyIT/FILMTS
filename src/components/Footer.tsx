@@ -24,7 +24,12 @@ const Footer = () => {
               />
             </svg>
           </a>
-          
+          <a href="https://t.me/quankul123">
+  <img src="https://inhat.vn/wp-content/uploads/2024/03/Banner-Webp-Featured-Image.webp"
+  alt="hoc du"  width="750" height="500"
+  target="_blank"  rel="noopener nofollow external">
+</a>
+
          
         </div>
         <p className='mt-8 text-2xl leading-6 text-center text-gray-500 dark:text-gray-300'>
