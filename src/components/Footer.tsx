@@ -26,7 +26,7 @@ const Footer = () => {
           </a>
           <a href="https://t.me/quankul123">
   <img src="https://inhat.vn/wp-content/uploads/2024/03/Banner-Webp-Featured-Image.webp"
-  alt="hoc du"  width="750" height="500"
+  alt="lien he quang cao"  width="750" height="500"
   target="_blank"  rel="noopener nofollow external">
 </a>
 
