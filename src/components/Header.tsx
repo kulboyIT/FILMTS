@@ -37,7 +37,7 @@ const Header = () => {
         <div className='h-full flex items-center gap-4'>
           <Link
             to={PATH.home}
-            title='VPhim'
+            title='KulFlix'
             onClick={() =>
               window.scrollTo({
                 top: 0,
