@@ -24,12 +24,7 @@ const Footer = () => {
               />
             </svg>
            </a>
-         <a 
-           href='https://t.me/quankul123'>
-  <img src='https://tintuc24h.live/wp-content/uploads/2021/09/quang-cao.gif'
-  alt='quang-cao'  width='325' height='200'
-  target='_blank'  rel='noopener nofollow external'>
-</a>
+         
         </div>
         <p className='mt-8 text-2xl leading-6 text-center text-gray-500 dark:text-gray-300'>
           © 2024 KulFlix™. KUL ERO.
