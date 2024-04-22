@@ -2,6 +2,37 @@ const Footer = () => {
   return (
     <footer className='bg-gray-200 dark:bg-gray-800 mt-20 bg-[url("/footer-bg.webp")]'>
       <div className='container space-y-8 overflow-hidden pt-12 pb-32'>
+        <div className='flex justify-center mt-8 space-x-4 flex-wrap'>
+          <div className='flex space-x-4'>
+            <a href='https://bb12326.com/?inviteCode=53224905' target='_blank' rel='nofollow'> 
+              <img src='https://i.imgur.com/wB8vGnB.gif' alt='' style={{ width: '400px', height: '200px' }} />
+            </a>
+            <a
+              href='https://bb12326.com/?inviteCode=53224905' // chỗ này khi ng dùng click vào chuyển qua tab của web quảng cáo
+              target='_blank'
+              rel='nofollow'
+              style={{ marginLeft: '0px' }}
+            >
+              <img 
+              src='https://i.imgur.com/wB8vGnB.gif' // link ảnh để chỗ này.
+              alt='' 
+              style={{ width: '400px', height: '200px' }} /> 
+            </a>
+          </div>
+          <div className='flex space-x-4 mt-4' style={{ marginLeft: '0px' }}>
+            <a href='https://bb12326.com/?inviteCode=53224905' target='_blank' rel='nofollow'>
+              <img src='https://i.imgur.com/wB8vGnB.gif' alt='' style={{ width: '400px', height: '200px' }} />
+            </a>
+            <a
+              href='https://bb12326.com/?inviteCode=53224905'
+              target='_blank'
+              rel='nofollow'
+              style={{ marginLeft: '0px' }}
+            >
+              <img src='https://i.imgur.com/wB8vGnB.gif' alt='' style={{ width: '400px', height: '200px' }} />
+            </a>
+          </div>
+        </div>
         <div className='flex justify-center mt-8 space-x-4'>
           <a
             href='https://t.me/quankul123'
