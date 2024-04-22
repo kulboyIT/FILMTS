@@ -31,3 +31,10 @@ strong {
   font-size: unset;
   font-weight: unset;
 }
+@media screen and (max-width: 768px) {
+  .flex.space-x-4 > * {
+    display: block;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
