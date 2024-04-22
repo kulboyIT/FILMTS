@@ -1,3 +1,5 @@
+/** @jsxRuntime classic */
+/** @jsx jsx */
 const Footer = () => {
   return (
     <footer className='bg-gray-200 dark:bg-gray-800 mt-20 bg-[url("/footer-bg.webp")]'>
