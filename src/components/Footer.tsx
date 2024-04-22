@@ -1,5 +1,3 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
 const Footer = () => {
   return (
     <footer className='bg-gray-200 dark:bg-gray-800 mt-20 bg-[url("/footer-bg.webp")]'>
@@ -62,15 +60,7 @@ const Footer = () => {
           © 2024 KulFlix™. KUL ERO.
         </p>
       </div>
-      <style jsx>{`
-        @media screen and (max-width: 768px) {
-          .flex.space-x-4 > * {
-            display: block;
-            flex-basis: 100%;
-            max-width: 100%;
-          }
-        }
-      `}</style>
+     
     </footer>
   )
 }
