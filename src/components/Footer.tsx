@@ -2,6 +2,37 @@ const Footer = () => {
   return (
     <footer className='bg-gray-200 dark:bg-gray-800 mt-20 bg-[url("/footer-bg.webp")]'>
       <div className='container space-y-8 overflow-hidden pt-12 pb-32'>
+        <div className='flex justify-center mt-8 space-x-4 flex-wrap'>
+          <div className='flex space-x-4'>
+            <a href='https://bb12326.com/?inviteCode=53224905' target='_blank' rel='nofollow'> 
+              <img src='https://i.imgur.com/wB8vGnB.gif' alt='' style={{ width: '400px', height: '200px' }} />
+            </a>
+            <a
+              href='https://bb12326.com/?inviteCode=53224905' // chỗ này khi ng dùng click vào chuyển qua tab của web quảng cáo
+              target='_blank'
+              rel='nofollow'
+              style={{ marginLeft: '0px' }}
+            >
+              <img 
+              src='https://i.imgur.com/wB8vGnB.gif' // link ảnh để chỗ này
+              alt='' 
+              style={{ width: '400px', height: '200px' }} /> 
+            </a>
+          </div>
+          <div className='flex space-x-4 mt-4' style={{ marginLeft: '0px' }}>
+            <a href='https://bb12326.com/?inviteCode=53224905' target='_blank' rel='nofollow'>
+              <img src='https://i.imgur.com/wB8vGnB.gif' alt='' style={{ width: '400px', height: '200px' }} />
+            </a>
+            <a
+              href='https://bb12326.com/?inviteCode=53224905'
+              target='_blank'
+              rel='nofollow'
+              style={{ marginLeft: '0px' }}
+            >
+              <img src='https://i.imgur.com/wB8vGnB.gif' alt='' style={{ width: '400px', height: '200px' }} />
+            </a>
+          </div>
+        </div>
         <div className='flex justify-center mt-8 space-x-4'>
           <a
             href='https://t.me/quankul123'
@@ -23,13 +54,21 @@ const Footer = () => {
                 d='M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02Z'
               />
             </svg>
-           </a>
-         
+          </a>
         </div>
         <p className='mt-8 text-2xl leading-6 text-center text-gray-500 dark:text-gray-300'>
           © 2024 KulFlix™. KUL ERO.
         </p>
       </div>
+      <style jsx>{`
+        @media screen and (max-width: 768px) {
+          .flex.space-x-4 > * {
+            display: block;
+            flex-basis: 100%;
+            max-width: 100%;
+          }
+        }
+      `}</style>
     </footer>
   )
 }
