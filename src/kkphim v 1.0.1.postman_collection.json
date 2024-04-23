@@ -1,0 +1,268 @@
+{
+	"info": {
+		"_postman_id": "62ebb60a-3c7c-4a0a-a5f0-3e6279614b7d",
+		"name": "kkphim v 1.0.1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24657765"
+	},
+	"item": [
+		{
+			"name": "phimbo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://phimapi.com/v1/api/danh-sach/phim-bo?page=1&limit=64",
+					"protocol": "https",
+					"host": [
+						"phimapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"api",
+						"danh-sach",
+						"phim-bo"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "64"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get phim bo detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://phimapi.com/phim/dai-chua-te-3d",
+					"protocol": "https",
+					"host": [
+						"phimapi",
+						"com"
+					],
+					"path": [
+						"phim",
+						"dai-chua-te-3d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "phim le",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://phimapi.com/v1/api/danh-sach/phim-le?page=446&limit=20",
+					"protocol": "https",
+					"host": [
+						"phimapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"api",
+						"danh-sach",
+						"phim-le"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "446"
+						},
+						{
+							"key": "limit",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "phim le detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://phimapi.com/phim/vung-quan-tam",
+					"protocol": "https",
+					"host": [
+						"phimapi",
+						"com"
+					],
+					"path": [
+						"phim",
+						"vung-quan-tam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "phim moi cap nhat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://phimapi.com/danh-sach/phim-moi-cap-nhat?page=1",
+					"protocol": "https",
+					"host": [
+						"phimapi",
+						"com"
+					],
+					"path": [
+						"danh-sach",
+						"phim-moi-cap-nhat"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "the loai",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://phimapi.com/the-loai",
+					"protocol": "https",
+					"host": [
+						"phimapi",
+						"com"
+					],
+					"path": [
+						"the-loai"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "phim theo the loai",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://phimapi.com/v1/api/the-loai/lich-su",
+					"protocol": "https",
+					"host": [
+						"phimapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"api",
+						"the-loai",
+						"lich-su"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tim kiem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://phimapi.com/v1/api/tim-kiem?keyword=phong than&limit=10",
+					"protocol": "https",
+					"host": [
+						"phimapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"api",
+						"tim-kiem"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "phong than"
+						},
+						{
+							"key": "page",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "quoc gia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://phimapi.com/quoc-gia",
+					"protocol": "https",
+					"host": [
+						"phimapi",
+						"com"
+					],
+					"path": [
+						"quoc-gia"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "quoc gia chi tiet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://phimapi.com/v1/api/quoc-gia/viet-nam?page=2&limit=40",
+					"protocol": "https",
+					"host": [
+						"phimapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"api",
+						"quoc-gia",
+						"viet-nam"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						},
+						{
+							"key": "limit",
+							"value": "40"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
