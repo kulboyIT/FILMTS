@@ -5,7 +5,7 @@ const PATH = {
   type: ':type',
   slug: ':slug',
   search: 'tim-kiem',
-  new: 'phim-moi',
+  new: 'phim-moi-cap-nhat',
   series: 'phim-bo',
   odd: 'phim-le',
   tvShows: 'tv-shows',
