@@ -40,8 +40,8 @@ const Film = () => {
   return (
     <>
       <Helmet>
-        <title>{`VPhim | ${dataFilm?.seoOnPage.titleHead}`}</title>
-        <meta name='description' content={`${dataFilm?.seoOnPage.descriptionHead} | Xem phim miễn phí tại VPhim`} />
+        <title>{`KulFlix | ${dataFilm?.seoOnPage.titleHead}`}</title>
+        <meta name='description' content={`${dataFilm?.seoOnPage.descriptionHead} | Xem phim miễn phí tại KulFlix`} />
       </Helmet>
       <div>
         <div className='relative w-full h-[36vh] sm:h-[56vh] md:h-[66vh] lg:h-[76vh] xl:h-[86vh] bg-black'>
@@ -92,7 +92,7 @@ const Film = () => {
                 <Link
                   title={`Tìm kiếm ${dataFilm.item.year}`}
                   to={{
-                    pathname: `${PATH.list}/${PATH.new}`,
+                    pathname: `${PATH.list}`,
                     search: createSearchParams({
                       ...queryConfig,
                       year: dataFilm.item.year.toString()
