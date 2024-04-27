@@ -22,8 +22,8 @@ const List = () => {
   return (
     <>
       <Helmet>
-        <title>{`VPhim | ${dataFilm?.seoOnPage.titleHead}`}</title>
-        <meta name='description' content={`${dataFilm?.seoOnPage.descriptionHead}. Xem phim miễn phí tại VPhim`} />
+        <title>{`KulFlix | ${dataFilm?.seoOnPage.titleHead}`}</title>
+        <meta name='description' content={`${dataFilm?.seoOnPage.descriptionHead}. Xem phim miễn phí tại KulFlix`} />
       </Helmet>
       <div className='container px-4 mt-[45px]'>
         <Filter />
