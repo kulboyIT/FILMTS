@@ -125,7 +125,7 @@ const Detail = () => {
                     title={`Thể loại ${item.name}`}
                     key={item.id}
                     to={{
-                      pathname: `${PATH.list}/${PATH.new}`,
+                      pathname: `${PATH.list}`,
                       search: createSearchParams({
                         ...queryConfig,
                         category: item.slug
