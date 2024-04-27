@@ -125,7 +125,7 @@ const Detail = () => {
                     title={`Thể loại ${item.name}`}
                     key={item.id}
                     to={{
-                      pathname: `${PATH.list}`,
+                      pathname: `${PATH.list}/${PATH.new}`,
                       search: createSearchParams({
                         ...queryConfig,
                         category: item.slug
@@ -160,7 +160,7 @@ const Detail = () => {
                       <Link
                         title={`Tìm kiếm ${item.name}`}
                         to={{
-                          pathname: `${PATH.list}`,
+                          pathname: `${PATH.list}/${PATH.new}`,
                           search: createSearchParams({
                             ...queryConfig,
                             country: item.slug
@@ -176,7 +176,7 @@ const Detail = () => {
                       title={`Tìm kiếm ${item.name}`}
                       key={item.id}
                       to={{
-                        pathname: `${PATH.list}`,
+                        pathname: `${PATH.list}/${PATH.new}`,
                         search: createSearchParams({
                           ...queryConfig,
                           country: item.slug
@@ -194,7 +194,7 @@ const Detail = () => {
                 <Link
                   title={`Tìm kiếm ${dataFilm.item.year}`}
                   to={{
-                    pathname: `${PATH.list}`,
+                    pathname: `${PATH.list}/${PATH.new}`,
                     search: createSearchParams({
                       ...queryConfig,
                       year: dataFilm.item.year.toString() as string
