@@ -22,8 +22,8 @@ const Search = () => {
   return (
     <>
       <Helmet>
-        <title>{`VPhim | ${dataSearch?.seoOnPage.titleHead}`}</title>
-        <meta name='description' content={`${dataSearch?.seoOnPage.descriptionHead}. Xem phim miễn phí tại VPhim`} />
+        <title>{`KulFlix | ${dataSearch?.seoOnPage.titleHead}`}</title>
+        <meta name='description' content={`${dataSearch?.seoOnPage.descriptionHead}. Xem phim miễn phí tại KulFlix`} />
       </Helmet>
       <div className='container px-4 mt-14'>
         <input
