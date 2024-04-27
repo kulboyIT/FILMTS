@@ -24,8 +24,8 @@ const Detail = () => {
   return (
     <>
       <Helmet>
-        <title>{`VPhim | ${dataFilm?.seoOnPage.titleHead}`}</title>
-        <meta name='description' content={`${dataFilm?.seoOnPage.descriptionHead} | Xem phim miễn phí tại VPhim`} />
+        <title>{`KulFlix | ${dataFilm?.seoOnPage.titleHead}`}</title>
+        <meta name='description' content={`${dataFilm?.seoOnPage.descriptionHead} | Xem phim miễn phí tại KulFlix`} />
       </Helmet>
       <div
         className='h-[600px] -mt-[56px] bg-cover bg-no-repeat bg-[50%_0] relative before:content-[""] before:absolute before:w-full before:top-0 before:bottom-0 before:bg-[#020d18bf]'
@@ -160,7 +160,7 @@ const Detail = () => {
                       <Link
                         title={`Tìm kiếm ${item.name}`}
                         to={{
-                          pathname: `${PATH.list}/${PATH.new}`,
+                          pathname: `${PATH.list}`,
                           search: createSearchParams({
                             ...queryConfig,
                             country: item.slug
@@ -176,7 +176,7 @@ const Detail = () => {
                       title={`Tìm kiếm ${item.name}`}
                       key={item.id}
                       to={{
-                        pathname: `${PATH.list}/${PATH.new}`,
+                        pathname: `${PATH.list}`,
                         search: createSearchParams({
                           ...queryConfig,
                           country: item.slug
@@ -194,7 +194,7 @@ const Detail = () => {
                 <Link
                   title={`Tìm kiếm ${dataFilm.item.year}`}
                   to={{
-                    pathname: `${PATH.list}/${PATH.new}`,
+                    pathname: `${PATH.list}`,
                     search: createSearchParams({
                       ...queryConfig,
                       year: dataFilm.item.year.toString() as string
