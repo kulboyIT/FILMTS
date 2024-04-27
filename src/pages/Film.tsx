@@ -92,7 +92,7 @@ const Film = () => {
                 <Link
                   title={`Tìm kiếm ${dataFilm.item.year}`}
                   to={{
-                    pathname: `${PATH.list}`,
+                    pathname: `${PATH.list}/${PATH.new}`,
                     search: createSearchParams({
                       ...queryConfig,
                       year: dataFilm.item.year.toString()
