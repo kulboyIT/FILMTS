@@ -11,7 +11,7 @@ const Navbar = () => {
             to={{
               pathname: PATH.search,
               search: createSearchParams({
-                keyword: '',
+                keyword: ' ',
                 page: '1'
               }).toString()
             }}
