@@ -30,7 +30,7 @@ const Detail = () => {
       <div
         className='h-[600px] -mt-[56px] bg-cover bg-no-repeat bg-[50%_0] relative before:content-[""] before:absolute before:w-full before:top-0 before:bottom-0 before:bg-[#020d18bf]'
         style={{
-          backgroundImage: `url('${dataFilm.item.poster_url}')`
+          backgroundImage: `url('https://img.ophim15.cc/uploads/movies/${dataFilm.item.poster_url}')`
         }}
       />
       <div className='container px-4 -mt-[360px] pt-3 relative z-10'>
