@@ -38,7 +38,7 @@ const Detail = () => {
           <div className='flex-shrink-0 flex flex-col items-center'>
             <img
               title={dataFilm.item.name}
-              src={`${dataFilm.item.thumb_url}`}
+              src={`https://img.ophim15.cc/uploads/movies/${dataFilm.item.thumb_url}`}
               alt={dataFilm.item.name}
               className='w-[282px] h-[432px] object-cover'
               loading='eager'
