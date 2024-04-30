@@ -10,7 +10,7 @@ const Card = ({ data }: { data?: items }) => {
           <img
             title={data.name}
             loading='eager'
-            src={`https://img.172.67.199.108/upload/videos
+            src={`https://img.172.67.199.108/uploads/movies
 /${data.thumb_url}`}
             alt={data.name}
             className='h-[210px] sm:h-[384px] w-full object-cover mb-1'
