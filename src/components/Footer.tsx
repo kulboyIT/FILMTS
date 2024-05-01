@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='flex justify-center mt-8 space-x-4 flex-wrap'>
           <div className='flex space-x-4'>
             <a href='https://chromewebstore.google.com/detail/free-vpn-for-chrome-vpn-p/majdfhpaihoncoakbjgbdhglocklcgno' target='_blank' rel='nofollow'> 
-              <img src='https://tintuc24h.live/wp-content/uploads/2021/09/quang-cao.gif' alt='' style={{ width: '400px', height: '200px' }} />
+              <img src='https://i0.wp.com/www.techno360.in/wp-content/uploads/2020/11/VeePN-Windows-app-interface.gif?resize=540%2C419&ssl=1' alt='' style={{ width: '400px', height: '200px' }} />
             </a>
             <a
               href='https://t.me/quankul123' // chỗ này khi ng dùng click vào chuyển qua tab của web quảng cáo
