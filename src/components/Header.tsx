@@ -231,8 +231,8 @@ const Header = () => {
             <span className='sr-only'>GoogleChrome</span>
            <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="800"
-      height="800"
+      width="80"
+      height="80"
       version="1.1"
       viewBox="0 0 512 512"
       xmlSpace="preserve"
