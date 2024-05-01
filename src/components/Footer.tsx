@@ -4,8 +4,8 @@ const Footer = () => {
       <div className='container space-y-8 overflow-hidden pt-12 pb-32'>
         <div className='flex justify-center mt-8 space-x-4 flex-wrap'>
           <div className='flex space-x-4'>
-            <a href='https://chromewebstore.google.com/detail/free-vpn-for-chrome-vpn-p/majdfhpaihoncoakbjgbdhglocklcgno' target='_blank' rel='nofollow'> 
-              <img src='https://i0.wp.com/www.techno360.in/wp-content/uploads/2020/11/VeePN-Windows-app-interface.gif?resize=540%2C419&ssl=1' alt='' style={{ width: '400px', height: '200px' }} />
+            <a href='https://play.google.com/store/apps/dev?id=8778413552898986115&hl=vi&gl=US' target='_blank' rel='nofollow'> 
+              <img src='https://play-lh.googleusercontent.com/o_FNjR5aiJJ_fRS_wTYIsIJtJjVH88y3YpPKuY5W1E7ZXxq3_S-B14P0txr7oKq0XPk=w720-h405-rw' alt='' style={{ width: '400px', height: '200px' }} />
             </a>
             <a
               href='https://t.me/quankul123' // chỗ này khi ng dùng click vào chuyển qua tab của web quảng cáo
