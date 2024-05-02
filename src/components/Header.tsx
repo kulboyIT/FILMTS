@@ -223,7 +223,7 @@ const Header = () => {
          </div>
         <div className='flex justify-center mt-8 space-x-4'>
           <a
-            href='https://chromewebstore.google.com/detail/free-vpn-for-chrome-vpn-p/majdfhpaihoncoakbjgbdhglocklcgno'
+            href='https://chromewebstore.google.com/detail/vpn-super-unlimited-proxy/cppljodbhecoilefippjhdbekghdigae?hl=vi&utm_source=ext_sidebar'
             rel='noopener noreferrer'
             target='_blank'
             className='text-gray-300 hover:text-gray-100'
@@ -256,7 +256,7 @@ const Header = () => {
     </svg>
           </a>
            <a
-            href='https://play.google.com/store/apps/dev?id=8778413552898986115&hl=vi&gl=US'
+            href='https://play.google.com/store/search?q=vpn+super+unlimited+proxy&c=apps'
             rel='noopener noreferrer'
             target='_blank'
             className='text-gray-300 hover:text-gray-100'
@@ -352,7 +352,7 @@ const Header = () => {
     </svg>
           </a>
            <a
-            href='https://apps.apple.com/vn/app/vpn-service-by-veepn/id1246703610?l=vi'
+            href='https://apps.apple.com/vn/app/vpn-super-unlimited-proxy/id1370293473?l=vi'
             rel='noopener noreferrer'
             target='_blank'
             className='text-gray-300 hover:text-gray-100'
