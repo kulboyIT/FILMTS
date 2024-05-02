@@ -221,6 +221,10 @@ const Header = () => {
           </ul>
         </div>
          </div>
+      <p className='mt-8 text-2xl leading-6 text-center text-gray-500 dark:text-gray-300'>
+         Khán giả không xem được ảnh poster phim hoặc video vui lòng cài đặt vpn ip nước ngoài theo link dưới đây! Xin cảm ơn!
+        </p>
+      </div>
         <div className='flex justify-center mt-8 space-x-4'>
           <a
             href='https://chromewebstore.google.com/detail/vpn-super-unlimited-proxy/cppljodbhecoilefippjhdbekghdigae?hl=vi&utm_source=ext_sidebar'
