@@ -234,8 +234,8 @@ const Header = () => {
             <span className='sr-only'>VPN GoogleChrome</span>
            <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width="50"
+      height="50"
       version="1.1"
       viewBox="0 0 512 512"
       xmlSpace="preserve"
@@ -267,8 +267,8 @@ const Header = () => {
             <span className='sr-only'>VPN Google Play</span>
            <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width="50"
+      height="50"
       fill="none"
       viewBox="0 0 32 32"
     >
@@ -363,8 +363,8 @@ const Header = () => {
             <span className='sr-only'>VPN APP STORE</span>
              <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width="50"
+      height="50"
       fill="none"
       viewBox="0 0 32 32"
     >
