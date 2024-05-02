@@ -219,8 +219,7 @@ const Header = () => {
               </NavLink>
             </li>
           </ul>
-        </div>
-         </div>
+       
       <p className='mt-8 text-2xl leading-6 text-center text-gray-500 dark:text-gray-300'>
      Khán giả không xem được ảnh poster phim vui lòng cài đặt vpn ip nước ngoài theo link dưới đây!Xin cảm ơn!
         </p>    
