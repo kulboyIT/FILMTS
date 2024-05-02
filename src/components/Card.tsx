@@ -10,7 +10,7 @@ const Card = ({ data }: { data?: items }) => {
           <img
             title={data.name}
             loading='eager'
-            src={`https://img.ophim6.cc/uploads/movies/${data.thumb_url}`}
+            src={`https://img.ophim15.cc/uploads/movies/${data.thumb_url}`}
             alt={data.name}
             className='h-[210px] sm:h-[384px] w-full object-cover mb-1'
           />
