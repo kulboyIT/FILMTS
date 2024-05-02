@@ -226,7 +226,7 @@ const Header = () => {
         </p>    
         <div className='flex justify-center mt-8 space-x-4'>
           <a
-            href='https://chromewebstore.google.com/detail/vpn-super-unlimited-proxy/cppljodbhecoilefippjhdbekghdigae?hl=vi&utm_source=ext_sidebar'
+            href='https://chromewebstore.google.com/detail/free-vpn-for-chrome-vpn-p/majdfhpaihoncoakbjgbdhglocklcgno'
             rel='noopener noreferrer'
             target='_blank'
             className='text-gray-300 hover:text-gray-100'
