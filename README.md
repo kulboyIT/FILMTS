@@ -1,4 +1,4 @@
-<h1 align= center><b>🔥 VPhim 🔥</b></h1>
+<h1 align= center><b>🔥 Kulflix 🔥</b></h1>
 <h3 align = center> A website to watch movie written in ReactJS </h3>
 
 ## Introduction
@@ -10,9 +10,7 @@ The website uses the popular responsive design, which can give you the same expe
 
 ## Official Link
 
-https://vphim.onrender.com/
-
-Api: https://ophim9.cc/
+ https://kulflix.net
 
 ## Technology
 
