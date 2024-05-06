@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='flex justify-center mt-8 space-x-4 flex-wrap'>
           <div className='flex space-x-4'>
             <a href='https://kuljav.online' target='_blank' rel='nofollow'> 
-              <img src='https://up-anh.vi-vn.vn/img/1714972575_7e7af48109c945a65e00047db9cfb623.png' alt='' style={{ width: '400px', height: '200px' }} />
+              <img src='https://i.imgur.com/rWGqaXq.gif' alt='' style={{ width: '400px', height: '200px' }} />
             </a>
             <a
               href='https://t.me/quankul123' // chỗ này khi ng dùng click vào chuyển qua tab của web quảng cáo
