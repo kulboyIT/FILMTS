@@ -8,7 +8,7 @@ const Footer = () => {
               <img src='https://i.imgur.com/rWGqaXq.gif' alt='' style={{ width: '400px', height: '200px' }} />
             </a>
             <a
-              href='https://t.me/quankul123' // chỗ này khi ng dùng click vào chuyển qua tab của web quảng cáo
+              href='https://t.me/danhluu321' // chỗ này khi ng dùng click vào chuyển qua tab của web quảng cáo
               target='_blank'
               rel='nofollow'
               style={{ marginLeft: '0px' }}
@@ -20,11 +20,11 @@ const Footer = () => {
             </a>
           </div>
           <div className='flex space-x-4 mt-4' style={{ marginLeft: '0px' }}>
-            <a href='https://t.me/quankul123' target='_blank' rel='nofollow'>
+            <a href='https://t.me/danhluu321' target='_blank' rel='nofollow'>
               <img src='https://tintuc24h.live/wp-content/uploads/2021/09/quang-cao.gif' alt='' style={{ width: '400px', height: '200px' }} />
             </a>
             <a
-              href='https://t.me/quankul123'
+              href='https://t.me/danhluu321'
               target='_blank'
               rel='nofollow'
               style={{ marginLeft: '0px' }}
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         <div className='flex justify-center mt-8 space-x-4'>
           <a
-            href='https://t.me/quankul123'
+            href='https://t.me/danhluu321'
             rel='noopener noreferrer'
             target='_blank'
             className='text-gray-300 hover:text-gray-100'
