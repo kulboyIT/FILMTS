@@ -4,8 +4,8 @@ const Footer = () => {
       <div className='container space-y-8 overflow-hidden pt-12 pb-32'>
         <div className='flex justify-center mt-8 space-x-4 flex-wrap'>
           <div className='flex space-x-4'>
-            <a href='https://kuljav.online' target='_blank' rel='nofollow'> 
-              <img src='https://i.imgur.com/rWGqaXq.gif' alt='' style={{ width: '400px', height: '200px' }} />
+            <a href='https://t.me/danhluu321' target='_blank' rel='nofollow'> 
+              <img src='https://tintuc24h.live/wp-content/uploads/2021/09/quang-cao.gif' alt='' style={{ width: '400px', height: '200px' }} />
             </a>
             <a
               href='https://t.me/danhluu321' // chỗ này khi ng dùng click vào chuyển qua tab của web quảng cáo
